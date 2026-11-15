@@ -12,4 +12,5 @@ after joining Wi-Fi and every 6 hours; when the version is newer than its own, i
 To release: replace `firmware.bin`, bump `version` in `latest.json`, commit both together.
 
 ## History
+- **0.1.4** (2026-11-14): voices "Brown (Small)" and "Deep brown (Small)", tuned for the PC83-4 (no deep-bass boost it cannot play): about +13 / +9 dB(A) louder than "Brown" at the same setting.
 - **0.1.3** (2026-11-14): update button; volume 0-100 % on a loudness curve (50 % = -12 dB); look-ahead peak limiter instead of clipping (crackle fix); 80 ms audio buffer; Wi-Fi network search; `soundmachine-xxxx.local`; top ring shows the volume in its own colour.
